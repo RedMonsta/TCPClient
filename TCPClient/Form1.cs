@@ -8,13 +8,12 @@ namespace TCPClient
     public partial class Form1 : Form
     {
         DataModel.Data data { get; set; }
-        //public WCFServiceLib.WCFServiceClient client { get; set; }
 
         public Form1()
         {
             InitializeComponent();
-            TCPRPCClient.Connect("127.0.0.1", 17777);
-            //client = new WCFServiceLib.WCFServiceClient("BasicHttpBinding_IWCFService");
+            //TCPRPCClient.Connect("127.0.0.1", 17777);
+            TCPRPCClient.Connect("192.168.101.2", 17777);
         }
 
         private void btnGetData_Click(object sender, EventArgs e)
