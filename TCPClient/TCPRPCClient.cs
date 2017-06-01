@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using CommandsLib;
-using DataModel;
 using System.Net.Sockets;
-using CommunicationSerializer;
 
 namespace TCPClient
 {
@@ -65,6 +60,80 @@ namespace TCPClient
         public static int AddUser(string userName)
         {
             return Convert.ToInt32(RemoteProcedureCall(new AddUserCommand { Name = userName }));
+        }
+
+        public static int AddAddress(string city, string street, int build, int flat)
+        {
+            return Convert.ToInt32(RemoteProcedureCall(new AddAddressCommand { City = city, Street = street, Build = build, Flat = flat }));
+        }
+
+        public static int AddOrder(string goodName)
+        {
+            return Convert.ToInt32(RemoteProcedureCall(new AddOrderCommand { GoodName = goodName }));
+        }
+
+
+        public static bool RemoveUser(int userid)
+        {
+            return (bool)RemoteProcedureCall(new RemoveUserCommand { UserId = userid });
+        }
+
+        public static bool RemoveAddress(int addrid)
+        {
+            return (bool)RemoteProcedureCall(new RemoveAddressCommand { AddrId = addrid });
+        }
+
+        public static bool RemoveOrder(int ordid)
+        {
+            return (bool)RemoteProcedureCall(new RemoveOrderCommand { OrdId = ordid });
+        }
+
+
+        public static bool AddUserToAddress(int userid, int addrid)
+        {
+            return (bool)RemoteProcedureCall(new AddLinkUserToAddressCommand { UserId = userid, AddrId = addrid });
+        }
+
+        public static bool AddAddressToUser(int addrid, int userid)
+        {
+            return (bool)RemoteProcedureCall(new AddLinkAddressToUserCommand { UserId = userid, AddrId = addrid });
+        }
+
+        public static bool AddOrderToAddress(int ordid, int addrid)
+        {
+            return (bool)RemoteProcedureCall(new AddLinkOrderToAddressCommand { OrdId = ordid, AddrId = addrid });
+        }
+
+        public static bool AddOrderToUser(int ordid, int userid)
+        {
+            return (bool)RemoteProcedureCall(new AddLinkOrderToUserCommand { UserId = userid, OrdId = ordid });
+        }
+
+
+        public static bool RemoveUserFromAddress(int userid, int addrid)
+        {
+            return (bool)RemoteProcedureCall(new RemoveLinkUserToAddressCommand { UserId = userid, AddrId = addrid });
+        }
+
+        public static bool RemoveAddressFromUser(int addrid, int userid)
+        {
+            return (bool)RemoteProcedureCall(new RemoveLinkAddressToUserCommand { UserId = userid, AddrId = addrid });
+        }
+
+        public static bool RemoveOrderFromAddress(int ordid, int addrid)
+        {
+            return (bool)RemoteProcedureCall(new RemoveLinkOrderToAddressCommand { OrdId = ordid, AddrId = addrid });
+        }
+
+        public static bool RemoveOrderFromUser(int ordid, int userid)
+        {
+            return (bool)RemoteProcedureCall(new RemoveLinkOrderToUserCommand { UserId = userid, OrdId = ordid });
+        }
+
+
+        public static string GetData()
+        {
+            return (string)RemoteProcedureCall(new GetDataCommand());
         }
     }
 }
