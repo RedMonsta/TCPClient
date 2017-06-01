@@ -1,0 +1,17 @@
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\TCPClient.exe.config
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\TCPClient.exe
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\TCPClient.pdb
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\obj\Debug\TCPClient.csprojResolveAssemblyReference.cache
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\obj\Debug\TCPClient.Form1.resources
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\obj\Debug\TCPClient.Properties.Resources.resources
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\obj\Debug\TCPClient.csproj.GenerateResource.Cache
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\obj\Debug\TCPClient.exe
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\obj\Debug\TCPClient.pdb
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\Newtonsoft.Json.dll
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\Newtonsoft.Json.xml
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\CommandsLib.dll
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\CommunicationSerializer.dll
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\DataModel.dll
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\CommunicationSerializer.pdb
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\CommandsLib.pdb
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\TCPClient\bin\Debug\DataModel.pdb

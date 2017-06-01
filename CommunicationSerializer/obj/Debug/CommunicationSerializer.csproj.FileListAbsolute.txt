@@ -1,0 +1,9 @@
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\CommunicationSerializer\bin\Debug\CommunicationSerializer.dll
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\CommunicationSerializer\bin\Debug\CommunicationSerializer.pdb
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\CommunicationSerializer\bin\Debug\CommandsLib.dll
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\CommunicationSerializer\bin\Debug\Newtonsoft.Json.dll
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\CommunicationSerializer\bin\Debug\CommandsLib.pdb
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\CommunicationSerializer\bin\Debug\Newtonsoft.Json.xml
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\CommunicationSerializer\obj\Debug\CommunicationSerializer.csprojResolveAssemblyReference.cache
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\CommunicationSerializer\obj\Debug\CommunicationSerializer.dll
+D:\БГУИР\GitHub\GitHubKSiS\Lab3\TCPClient\CommunicationSerializer\obj\Debug\CommunicationSerializer.pdb
